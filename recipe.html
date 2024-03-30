@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/eaad2fdcac.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Recipe of the month</title>
+  <style>
+    /*Navbar*/
+    .navbar-brand {
+      color: #C8A96A;
+      font-size: 30px;
+      font-family: 'Libre Baskerville', serif;
+      padding-left: 8px;
+    }
+
+    .nav-link {
+      color: #C8A96A;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 17px;
+    }
+
+    .navbar-expand-md {
+      background-color: black;
+      color: #C8A96A;
+    }
+
+    .navbar-brand:hover {
+      color: #C8A96A;
+    }
+
+    .nav-link:visited {
+      color: #C8A96A;
+    }
+
+    .nav-link:hover {
+      color: #C8A96A;
+    }
+
+    .navbar-brand:visited {
+      color: #C8A96A;
+    }
+
+    .btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+    --bs-btn-hover-color: #ffffff;
+    --bs-btn-hover-bg: #807a7a;
+    --bs-btn-hover-border-color: #ffffff;
+    --bs-btn-active-color: #ffffff;
+    --bs-btn-active-bg: rgb(134, 128, 128);
+    --bs-btn-active-border-color: 2px solid #ffffff;
+    font-weight: bold;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    ul {
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body>
+  <!----Navbar start here-->
+<!-- nav -->
+<div class="card">
+  <div class="card-body text-center" style="           font-family: 'Libre Baskerville', serif; font-size: large;
+  background-color: #C8A96A; color: black; margin-top: -10px; margin-bottom: -10px;">
+    For orders and Reservations contact us on 0317-2983448
+  </div>
+</div>
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <img src="navlogo.png" alt="logo" style="height: 50px; padding-left: 10px; "
+      class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="#"> Vinegar Food Restaurant</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span><i class="fa-solid fa-bars fa-xl" style="color: #C8A96A;"></i></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color:#C8A96A;font-family: 'Libre Baskerville', serif;   
+              ">Vinegar Food Restaurant</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link " href="menu.html">Meals</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="award.html">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="catering.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="recipe.html">Recipe of the month</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+
+          </li>
+      </div>
+    </div>
+  </div>
+</nav>
+  <!----Navbar end here-->
+
+  <!----Main heading start here-->
+  <br>
+  <div class="container-fluid" >
+    <div class="row" style="text-align: center;">
+      <div class="col-12 intro-text">
+        <h1 class="h1" style="font-family: 'Libre Baskerville', serif; font-weight: bold;">Recipe of the month:</h1>
+      </div>
+    </div>
+    <!----Main heading end here-->
+
+    <!----Menu Material start here-->
+    <div class="card mb-3" style="max-width: 100%; margin: 20px; background-color: #C8A96A; font-weight: bold; 
+    font-family: 'Libre Baskerville', serif;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="recipe1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h1 class="card-title" style="font-family: 'Libre Baskerville', serif; font-weight: bold; margin-top: 40px; 
+            font-size: 40px;">Prawn karahi</h1>
+            <br>
+            <p class="card-text" style="font-size: 20px;">A Prawn Karahi curry is a seafood spin on the more classic and 
+              common chicken, lamb or mutton Karahi. Just like its aforementioned counterparts, it’s essentially a prawn
+               curry cooked in a deliciously thick tomato, ginger and garlic gravy (masala). As per tradition, it’s usually
+                served garnished with coriander, green chilli and julienne-cut slices of ginger.
+            </p>
+                <br>
+                <div class="modal fade " id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Instructions:</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Heat the oil in a pan. Once the oil is hot, flash fry the prawns for one minute. Set aside
+                        In the same oil, add in the minced ginger and garlic and fry for 2 minutes Add all the spices
+                        and green chillis.Add the tomatoes. Cook this on high heat, stirring. Allow this to cook for 5-10 minutes,
+                        until the gravy is thick and you can see oil separating around the edge of the pan. You'll also see a lot
+                        of holes bubbling in the gravy. Once the gravy is ready, add back the prawns and continue to cook this on
+                        high for a further 5 min. Your prawn karahi is ready! Garnish with freshly chopped coriander, matchstick-cut
+                         ginger, kalonji seeds and green chillis.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" style="border: 3px solid ;" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Ingredients</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Ingredients:</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <ol>1- Oil or ghee</ol>
+                      <ol>2- Garlic</ol>
+                      <ol>3- Ginger</ol>
+                      <ol>4- Tomatoes pureed</ol>
+                      <ol>5- Raw prawns</ol>
+                      <ol>6- Green chillis</ol>
+                      <ol>7- Salt</ol>
+                      <ol>8- Paprika</ol>
+                      <ol>9- Turmeric</ol>
+                      <ol>10- Cumin powder</ol>
+                      <ol>11- Coriander powder</ol>
+                      <ol>12- Kalonji (black seeds)</ol>
+                      <ol>13- Sugar</ol>
+                      <ol>14- Red chilli powder</ol>
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" style="border: 3px solid ;" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">How to cook?</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" style="font-size: 20px; border: 2px solid; padding-left:20px; padding-right:20px" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Recipe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----Menu Material end here-->
+  <footer class="footer mt-5" style="background-color: black;">
+      <div class="row pt-4" style="margin-right: 0px;">
+        <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-4">
+          <h4 class="ms-4" style="color: #C8A96A;">Vinegar Food Restaurant</h4>
+          <ul class="mt-3">
+            <li><a href="index.html" style="text-decoration: none; color: #bbbbbb;">Home</a></li>
+            <li><a href="menu.html" style="text-decoration: none; color: #bbbbbb;">Menu</a></li>
+            <li><a href="contactus.html" style="text-decoration: none; color: #bbbbbb;">Contact us</a></li>
+            <li><a href="feedback.html" style="text-decoration: none; color: #bbbbbb;">Feedback</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center mt-lg-0  mt-4">
+          <h4 class="ms-4" style="color:#C8A96A;">Our Timings</h4>
+          <ul class="mt-3" style="color: #bbbbbb; ">
+            <li>
+              <P>Monday-Friday:12pm-2am</P>
+            </li>
+            <li>
+              <p>Saturday-Sunday:2pm-4pm</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-4 mb-4">
+          <h4 style="color: #C8A96A;">Follow us </h4>
+          <div class="social-links mt-3 ">
+            <a href="#"><i class="fab fa-facebook-f me-2 " style="color: #bbbbbb;"></i></a>
+            <a href="#"><i class="fab fa-twitter me-2" style="color: #bbbbbb;"></i></a>
+            <a href="#"><i class="fab fa-instagram me-2" style="color: #bbbbbb;"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in" style="color: #bbbbbb;"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-4">
+          <h4 class="ms-4" style="color: #C8A96A;">Our Location</h4>
+          <iframe class="mt-3"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.0809001779576!2d67.02579351103867!3d24.826906846507306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dbf55a58d0b%3A0x54cc32c9fbc6f53a!2sVinegar%20Food%20Restaurant!5e0!3m2!1sen!2s!4v1704269425084!5m2!1sen!2s"
+            width="250" height="150" style="border:0; " allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/eaad2fdcac.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+
+  </style>
+</head>
+<html>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(pic.jpg);
+    background-size: cover;
+
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+
+}
+
+.contact .content h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #0f0f0f;
+}
+
+.contact .content p {
+    font-weight: 300;
+    color: #080808;
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: #f8f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    /* color: #fff; */
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+    background: #fffefe;
+}
+
+.contactForm h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 18px 0;
+    font-size: 16px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 2px solid #fafafa;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 0px 0;
+    font-size: 16px;
+    margin-bottom: 55px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.contactForm .inputBox input:focus~span,
+.contactForm .inputBox input:valid~span .contactForm .inputBox textarea:focus~span,
+.contactForm .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width:991px) {
+    .contact {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .contactInfo {
+        margin-bottom: 40px;
+    }
+
+    .container .contactInfo,
+    .contactForm {
+        width: 100%;
+    }
+}
+
+.col-12 button {
+    color: #0f0f0f;
+    background-color: #C8A96A;
+    border: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    height: 20%;
+    width: 70%;
+    box-shadow: 10px 10px 20px rgb(88, 88, 88);
+
+}
+
+.feedback-form form {
+    padding: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.feedback-form form .row {
+    margin-bottom: -7%;
+}
+
+.feedback-form .form-control {
+    border-radius: 1rem;
+}
+
+.im {
+    margin-left: 38%;
+    margin-top: 20px;
+    margin-right: 100px;
+    font-size: xx-large;
+}
+
+.im h3 {
+    margin-left: 20px;
+ font-family: 'poppins', sans-serif;
+}
+.navbar-brand {
+    color: #C8A96A;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    padding-left: 8px;
+}
+
+.nav-link {
+    color: #C8A96A;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 17px;
+}
+
+.navbar-expand-md {
+    background-color: black;
+    color: #C8A96A;
+}
+
+.navbar-brand:hover {
+    color: #C8A96A;
+}
+
+.nav-link:visited {
+    color: #C8A96A;
+}
+
+.nav-link:hover {
+    color: #C8A96A;
+}
+
+.navbar-brand:visited {
+    color: #C8A96A;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+</style>
+<body>
+ <!-- nav -->
+ <div class="card">
+  <div class="card-body text-center" style="           font-family: 'Libre Baskerville', serif; font-size: large;
+  background-color: #C8A96A; color: black; margin-top: -10px; margin-bottom: -10px;">
+    For orders and Reservations contact us on 0317-2983448
+  </div>
+</div>
+<nav class="navbar navbar-expand-md sticky-top">
+  <div class="container-fluid">
+    <img src="navlogo.png" alt="logo" style="height: 50px; padding-left: 10px; "
+      class="d-inline-block align-text-top">
+    <a class="navbar-brand" href="#"> Vinegar Food Restaurant</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span><i class="fa-solid fa-bars fa-xl" style="color: #C8A96A;"></i></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color:#C8A96A;font-family: 'Libre Baskerville', serif;   
+              ">Vinegar Food Restaurant</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link " href="menu.html">Meals</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="award.html">Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="catering.html">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="recipe.html">Recipe of the month</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
+
+          </li>
+      </div>
+    </div>
+  </div>
+</nav>
+<!-- form -->
+  <div class="im">
+    <div class="image">
+      <img src="feedback1.jpeg" alt="">
+    </div>
+    <img src="feedback.png" alt=""><br>
+   <h3> Drop Us A Feedback</h3>
+  </div>
+
+  <div class="container feedback-form">
+
+    <form class="row g-3">
+      <div class="col-md-4">
+
+        <label for="validationDefault01" class="form-label"> Name</label>
+        <input type="text" class="form-control" id="validationDefault01" value="" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Phone number</label>
+        <input type="text" class="form-control" id="validationDefault02" value="" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Email address</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2"></span>
+          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
+            required>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label for="validationDefault03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationDefault03" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault04" class="form-label">Resturant Name</label>
+        <select class="form-select" id="validationDefault04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>
+            Vinegar Food
+          </option>
+        </select>
+      </div>
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            Agree to terms and conditions
+          </label><br><br>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div><br>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit" style="margin-left: 43%;">Submit</button>
+        </div>
+      </div>
+  </div>
+  </form>
+  </div>
+  </div>
+  </section>
+
+
+  <!-- footer  -->
+  <footer class="footer mt-5" style="background-color: black;">
+    <!-- <div class="container-fluid"> -->
+    <div class="row pt-4" style="margin-right: 0px;">
+      <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-4">
+        <h4 class="ms-4" style="color: #C8A96A;">Vinegar Food Restaurant</h4>
+        <ul class="mt-3">
+          <li><a href="index.html" style="text-decoration: none; color: #bbbbbb;">Home</a></li>
+          <li><a href="menu.html" style="text-decoration: none; color: #bbbbbb;">Menu</a></li>
+          <li><a href="contactus.html" style="text-decoration: none; color: #bbbbbb;">Contact us</a></li>
+          <li><a href="feedback.html" style="text-decoration: none; color: #bbbbbb;">Feedback</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center mt-lg-0  mt-4">
+        <h4 class="ms-4" style="color:#C8A96A;">Our Timings</h4>
+        <ul class="mt-3" style="color: #bbbbbb; ">
+          <li>
+            <P>Monday-Friday:12pm-2am</P>
+          </li>
+          <li>
+            <p>Saturday-Sunday:2pm-4pm</p>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-4 mb-4">
+        <h4 style="color: #C8A96A;">Follow us </h4>
+        <div class="social-links mt-3 ">
+          <a href="#"><i class="fab fa-facebook-f me-2 " style="color: #bbbbbb;"></i></a>
+          <a href="#"><i class="fab fa-twitter me-2" style="color: #bbbbbb;"></i></a>
+          <a href="#"><i class="fab fa-instagram me-2" style="color: #bbbbbb;"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in" style="color: #bbbbbb;"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 text-center mt-lg-0 mt-4">
+        <h4 class="ms-4" style="color: #C8A96A;">Our Location</h4>
+        <iframe class="mt-3"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.0809001779576!2d67.02579351103867!3d24.826906846507306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33dbf55a58d0b%3A0x54cc32c9fbc6f53a!2sVinegar%20Food%20Restaurant!5e0!3m2!1sen!2s!4v1704269425084!5m2!1sen!2s"
+          width="250" height="150" style="border:0; " allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
